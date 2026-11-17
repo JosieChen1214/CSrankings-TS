@@ -8,7 +8,21 @@ The fork adds a curated faculty directory and evidence links alongside the origi
 | `medts` | Clinical time series, longitudinal clinical data and physiological signals |
 | `bci` | Brain-computer / brain-machine interfaces and neural decoding for interfaces |
 
-The initial dataset covers **9 people at 7 US institutions**. It is a seed list, not a complete survey or a topic-specific publication ranking. Do not infer specialization from a conference category, or infer BCI work from an EEG paper without interface evidence. Historical publications establish research involvement; they do not establish current recruiting, recent focus or continuing availability.
+The initial dataset covers **10 people at 8 US institutions**. It is a seed list, not a complete survey or a topic-specific publication ranking. Do not infer specialization from a conference category, or infer BCI work from an EEG paper without interface evidence. Historical publications establish research involvement; they do not establish current recruiting, recent focus or continuing availability.
+
+## Coverage gaps and the next collection pass
+
+Catie Chang is a concrete example of a topic-label omission: she is already in `csrankings.csv`, and this snapshot has publication records for NeurIPS 2024, ICLR 2025 and ICSE 2025, but she was absent from the initial nine-person topic list. Her [research page](https://www.cchanglab.net/research) and [NeuroBOLT paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/29c294ddc628c94cd2c636383ef106c1-Abstract-Conference.html) support medical time-series / physiological signal research. They do not, by themselves, establish brain-computer interface work. She is now tagged `medts`.
+
+The following is a collection roadmap, not an implemented automated crawler:
+
+1. Build a candidate roster institution by institution using official CS, ECE, BME, biomedical informatics, neuroscience and medical-school directories. Keep CSRankings as one discovery input and an identity/publication join; it must not be the gate for inclusion.
+2. Discover topic papers across journals and conferences using [OpenAlex](https://help.openalex.org/data/works/) and [PubMed](https://www.nlm.nih.gov/dataguide/eutilities/what_is_eutilities.html). Include physiological signals and brain dynamics in query variants, rather than requiring the literal phrase "time series". Retrieve recent papers separately from historical evidence. Keep DOI/PMID/ORCID where available and verify current appointments against official pages.
+3. Store review state explicitly in a future candidate table: unreviewed, needs evidence, verified relevant, or reviewed outside the defined scope. Unlisted and untagged faculty must never imply a negative finding. Automated topic matches are candidates until checked against the paper and faculty identity.
+4. Record collection coverage per school and department: which official directories were reviewed, when, how many roster identities were resolved, and how many remain unreviewed. A raw CSRankings row count is not a unique-person denominator because aliases exist.
+5. Use known relevant cases such as Catie Chang as recall checks before each release. Distinguish people missing from the upstream roster, people hidden by year/conference filters, and people missing only from the curated topic labels. Track tag precision separately from candidate recall.
+
+No source is presumed exhaustive. The directory currently contains verified seed entries only, so the interface explicitly labels unlisted faculty as unreviewed.
 
 ## Browsing
 

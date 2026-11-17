@@ -713,7 +713,7 @@ var CSRankings;
                 schools.set(person.affiliation, []);
             schools.get(person.affiliation).push(person);
         }
-        status.textContent = `${matches.length} faculty at ${schools.size} schools. Initial curated list; `
+        status.textContent = `${matches.length} faculty at ${schools.size} schools. Initial curated list; unlisted faculty are unreviewed. `
             + `evidence checked ${topicsCheckedOn}.`;
         if (!matches.length) {
             const empty = document.createElement("p");

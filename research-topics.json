@@ -4,6 +4,28 @@
   "coverage": "Initial US seed list, not an exhaustive faculty survey. Historical papers establish research involvement, not current recruiting or exclusive specialization.",
   "faculty": [
     {
+      "id": "catie-chang",
+      "name": "Catie Chang",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.cchanglab.net/people",
+      "csrankings_names": ["Catie Chang"],
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.cchanglab.net/research",
+          "summary": "Methods for time-varying brain activity, EEG-fMRI integration and physiological signal modeling in health and disease.",
+          "kind": "profile"
+        },
+        {
+          "topic": "medts",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/29c294ddc628c94cd2c636383ef106c1-Abstract-Conference.html",
+          "summary": "Coauthored NeuroBOLT, which models temporal, spatial and spectral information to translate EEG into fMRI signals.",
+          "kind": "paper",
+          "year": 2024
+        }
+      ]
+    },
+    {
       "id": "eamonn-keogh",
       "name": "Eamonn Keogh",
       "affiliation": "Univ. of California - Riverside",

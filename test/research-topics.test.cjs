@@ -28,7 +28,7 @@ function setup() {
 
 test('seed identities match the upstream roster and aliases do not duplicate people', () => {
     const { dom, api } = setup();
-    assert.equal(api.validateResearchTopics(dataset).length, 9);
+    assert.equal(api.validateResearchTopics(dataset).length, 10);
     const Papa = require(path.join(root, 'js/papaparse.min.js'));
     const roster = new Map(Papa.parse(fs.readFileSync(path.join(root, 'csrankings.csv'), 'utf8'),
         { header: true, skipEmptyLines: true }).data.map(row => [row.name, row]));
@@ -84,12 +84,15 @@ test('medical tags remain independent of general time series and BCI', async () 
     const filter = win.document.getElementById('research-topic-filter');
     filter.value = 'medts';
     filter.dispatchEvent(new win.Event('change'));
-    assert.match(win.document.getElementById('research-topic-status').textContent, /4 faculty at 3 schools/);
+    assert.match(win.document.getElementById('research-topic-status').textContent, /5 faculty at 4 schools/);
     assert.doesNotMatch(win.document.getElementById('research-topic-results').textContent, /Bin He|Carmena/);
     assert.equal(api.facultyTopicBadges('unknown faculty'), '');
     assert.match(api.facultyTopicBadges('Yan Liu 0002'), /Medical time series/);
     assert.match(api.facultyTopicBadges('Qi Rose Yu'), /General time series/);
     assert.doesNotMatch(api.facultyTopicBadges('Jose M. Carmena'), /Medical time series/);
+    assert.match(api.facultyTopicBadges('Catie Chang'), /Medical time series/);
+    assert.doesNotMatch(api.facultyTopicBadges('Catie Chang'), /Brain-computer interfaces/);
+    assert.equal(api.filterResearchFaculty(dataset.faculty, 'medts', 'EEG Vanderbilt')[0].name, 'Catie Chang');
     dom.window.close();
 });
 
@@ -97,13 +100,14 @@ test('region filtering also applies to supplemental faculty', async () => {
     const { dom, win, api, countries, abbreviations } = setup();
     await api.loadResearchTopics();
     api.initResearchTopicDirectory(countries, abbreviations);
-    assert.match(win.document.getElementById('research-topic-status').textContent, /9 faculty at 7 schools/);
+    assert.match(win.document.getElementById('research-topic-status').textContent, /10 faculty at 8 schools/);
+    assert.match(win.document.getElementById('research-topic-status').textContent, /unlisted faculty are unreviewed/);
     win.document.getElementById('regions').value = 'ca';
     api.renderResearchTopicDirectory(countries, abbreviations);
     assert.match(win.document.getElementById('research-topic-status').textContent, /0 faculty/);
     win.document.getElementById('regions').value = 'world';
     api.renderResearchTopicDirectory(countries, abbreviations);
-    assert.match(win.document.getElementById('research-topic-status').textContent, /9 faculty/);
+    assert.match(win.document.getElementById('research-topic-status').textContent, /10 faculty/);
     dom.window.close();
 });
 
