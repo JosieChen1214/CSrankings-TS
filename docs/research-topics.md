@@ -8,21 +8,25 @@ The fork adds a curated faculty directory and evidence links alongside the origi
 | `medts` | Clinical time series, longitudinal clinical data and physiological signals |
 | `bci` | Brain-computer / brain-machine interfaces and neural decoding for interfaces |
 
-The initial dataset covers **10 people at 8 US institutions**. It is a seed list, not a complete survey or a topic-specific publication ranking. Do not infer specialization from a conference category, or infer BCI work from an EEG paper without interface evidence. Historical publications establish research involvement; they do not establish current recruiting, recent focus or continuing availability.
+The dataset contains **84 people at 8 US institutions**. Vanderbilt has a documented roster screening pass; other schools remain seed coverage. Historical publications establish research involvement, not current recruiting or primary specialization. EEG alone does not imply BCI. Medical time series includes clinical longitudinal methods and basic physiological/neural signals, not only patient forecasting.
 
-## Coverage gaps and the next collection pass
+## Vanderbilt review (2026-11-17)
 
-Catie Chang is a concrete example of a topic-label omission: she is already in `csrankings.csv`, and this snapshot has publication records for NeurIPS 2024, ICLR 2025 and ICSE 2025, but she was absent from the initial nine-person topic list. Her [research page](https://www.cchanglab.net/research) and [NeuroBOLT paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/29c294ddc628c94cd2c636383ef106c1-Abstract-Conference.html) support medical time-series / physiological signal research. They do not, by themselves, establish brain-computer interface work. She is now tagged `medts`.
+The [searchable per-person review](../vanderbilt-review.html) and [public decision ledger](../data/institution-reviews/vanderbilt.json) cover **627 deduplicated people** from eight official directories: CS / Connected Computing, ECE, BME, biomedical informatics, biostatistics, psychological sciences, Brain Institute and Imaging Science. An existing CSRankings roster cross-check adds missing candidates and resolves aliases. Clinical/neuroscience faculty are covered through these directories, not through a census of every Vanderbilt/VUMC department. Source-specific counts overlap because of cross-appointments.
 
-The following is a collection roadmap, not an implemented automated crawler:
+**75 people are confirmed relevant**: 18 general time series, 57 medical time series, and 3 BCI (topics overlap). Of these, 46 are supplemental to the existing CSRankings roster. The audit also retains 378 screened people with no verified match, 147 with insufficient public evidence, 26 emeritus-only listings and 1 moved faculty member. A screened non-match is not a claim that a person has no relevant publications. The unresolved entries require further evidence; this release does not claim exhaustive recall.
 
-1. Build a candidate roster institution by institution using official CS, ECE, BME, biomedical informatics, neuroscience and medical-school directories. Keep CSRankings as one discovery input and an identity/publication join; it must not be the gate for inclusion.
-2. Discover topic papers across journals and conferences using [OpenAlex](https://help.openalex.org/data/works/) and [PubMed](https://www.nlm.nih.gov/dataguide/eutilities/what_is_eutilities.html). Include physiological signals and brain dynamics in query variants, rather than requiring the literal phrase "time series". Retrieve recent papers separately from historical evidence. Keep DOI/PMID/ORCID where available and verify current appointments against official pages.
-3. Store review state explicitly in a future candidate table: unreviewed, needs evidence, verified relevant, or reviewed outside the defined scope. Unlisted and untagged faculty must never imply a negative finding. Automated topic matches are candidates until checked against the paper and faculty identity.
-4. Record collection coverage per school and department: which official directories were reviewed, when, how many roster identities were resolved, and how many remain unreviewed. A raw CSRankings row count is not a unique-person denominator because aliases exist.
-5. Use known relevant cases such as Catie Chang as recall checks before each release. Distinguish people missing from the upstream roster, people hidden by year/conference filters, and people missing only from the curated topic labels. Track tag precision separately from candidate recall.
+Positive decisions use explicit profile/project descriptions or authored papers. Some support a research direction and others a specific coauthored work; evidence summaries state which. All included people have a current official roster/profile source, with exceptions and appointment changes recorded. Thomas Beckers is excluded from the current Vanderbilt topic directory because his official Ulm profile dates the Vanderbilt assistant professorship through August 2026. Keivan Stassun is included as of the review date with the university's announced December 31, 2026 departure shown beside his entry.
 
-No source is presumed exhaustive. The directory currently contains verified seed entries only, so the interface explicitly labels unlisted faculty as unreviewed.
+Catie Chang was already in the upstream roster but missing from the initial topic list. She is tagged medical time series using her lab research and NeuroBOLT. The BCI entries require specific interface evidence: Daniel Gonzales, Richard Alan Peters II and Thilo Womelsdorf. EMG prosthetic control and neural recording alone do not receive BCI tags.
+
+The ledger stores a decision, explanation, directory memberships, profile URLs and positive topic evidence for each person. It republishes professional research information only. Rebuild the portable review after editing the ledger:
+
+```sh
+node util/render-institution-review.cjs
+```
+
+For subsequent institution passes, start from official cross-disciplinary rosters, resolve aliases and appointments, inspect explicit research/paper sources, retain unresolved candidates and publish per-source coverage. CSRankings provides identity and publication joins; it is not an eligibility gate for the topic directory.
 
 ## Browsing
 
@@ -38,6 +42,7 @@ Edit `research-topics.json`. Each person has:
 
 - A stable `id`, display `name`, exact institution `affiliation` and official `homepage`.
 - `csrankings_names`: exact roster identities, including DBLP suffixes. Multiple aliases map to one person. An empty array denotes supplemental faculty.
+- Optional `departments` and `appointment` show source-listed affiliations and roles. Appointment changes use `appointment_note` plus `appointment_note_source`; these metadata are searchable and source linked.
 - At least one `evidence` record per assigned topic. Each contains `topic`, a primary-source `url`, a short paraphrased `summary`, and `kind` (`profile`, `project`, `paper`). Papers also require the source publication/preprint `year`; label preprints in the summary.
 
 Use official faculty/lab pages, university project pages or papers. Verify both identity and affiliation. Preserve DBLP suffixes, e.g. `Yan Liu 0002` and `Jimeng Sun 0001`. Keep the directory deduplicated even if the original roster has aliases such as `Rose Yu` / `Qi Rose Yu`. Set `checked_on` to the actual evidence review date after reviewing the complete dataset; it is not a publication date. When adding countries, make sure institution names match `institutions.csv` so existing region filtering works.

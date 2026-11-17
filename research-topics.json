@@ -1,140 +1,19 @@
 {
   "schema_version": 1,
   "checked_on": "2026-11-17",
-  "coverage": "Initial US seed list, not an exhaustive faculty survey. Historical papers establish research involvement, not current recruiting or exclusive specialization.",
+  "coverage": "Vanderbilt: eight official faculty directories and a CSRankings identity cross-check screened on 2026-11-17, with unresolved cases retained in the institution review. Other institutions remain seed coverage. Historical papers demonstrate involvement, not current recruiting or primary specialization.",
   "faculty": [
     {
-      "id": "catie-chang",
-      "name": "Catie Chang",
-      "affiliation": "Vanderbilt University",
-      "homepage": "https://www.cchanglab.net/people",
-      "csrankings_names": ["Catie Chang"],
-      "evidence": [
-        {
-          "topic": "medts",
-          "url": "https://www.cchanglab.net/research",
-          "summary": "Methods for time-varying brain activity, EEG-fMRI integration and physiological signal modeling in health and disease.",
-          "kind": "profile"
-        },
-        {
-          "topic": "medts",
-          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/29c294ddc628c94cd2c636383ef106c1-Abstract-Conference.html",
-          "summary": "Coauthored NeuroBOLT, which models temporal, spatial and spectral information to translate EEG into fMRI signals.",
-          "kind": "paper",
-          "year": 2024
-        }
-      ]
-    },
-    {
-      "id": "eamonn-keogh",
-      "name": "Eamonn Keogh",
-      "affiliation": "Univ. of California - Riverside",
-      "homepage": "https://www.cs.ucr.edu/~eamonn/",
-      "csrankings_names": ["Eamonn J. Keogh"],
-      "evidence": [
-        {
-          "topic": "ts",
-          "url": "https://www.cs.ucr.edu/~eamonn/",
-          "summary": "Time-series data mining, similarity search, matrix profiles and classification datasets.",
-          "kind": "profile"
-        }
-      ]
-    },
-    {
-      "id": "yan-liu-usc",
-      "name": "Yan Liu",
-      "affiliation": "University of Southern California",
-      "homepage": "https://sites.google.com/view/yanliu-ai/home",
-      "csrankings_names": ["Yan Liu 0002"],
-      "evidence": [
-        {
-          "topic": "ts",
-          "url": "https://sites.google.com/view/yanliu-ai/home",
-          "summary": "Machine learning for time series, including applications to health and sustainability.",
-          "kind": "profile"
-        },
-        {
-          "topic": "medts",
-          "url": "https://arxiv.org/abs/1606.01865",
-          "summary": "Coauthored GRU-D for multivariate time series with missing values, evaluated on clinical datasets.",
-          "kind": "paper",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "id": "rose-yu",
-      "name": "Rose Yu",
-      "affiliation": "Univ. of California - San Diego",
-      "homepage": "https://roseyu.com/",
-      "csrankings_names": ["Rose Yu", "Qi Rose Yu"],
-      "evidence": [
-        {
-          "topic": "ts",
-          "url": "https://roseyu.com/",
-          "summary": "Spatiotemporal machine learning and time-series forecasting.",
-          "kind": "profile"
-        }
-      ]
-    },
-    {
-      "id": "jimeng-sun",
-      "name": "Jimeng Sun",
-      "affiliation": "Univ. of Illinois at Urbana-Champaign",
-      "homepage": "https://www.sunlab.org/",
-      "csrankings_names": ["Jimeng Sun 0001"],
-      "evidence": [
-        {
-          "topic": "medts",
-          "url": "https://arxiv.org/abs/2603.24828",
-          "summary": "Coauthored a reproducibility study of interpretation methods for time-series clinical prediction (preprint).",
-          "kind": "paper",
-          "year": 2026
-        }
-      ]
-    },
-    {
-      "id": "marzyeh-ghassemi",
-      "name": "Marzyeh Ghassemi",
-      "affiliation": "Massachusetts Inst. of Technology",
-      "homepage": "https://www.eecs.mit.edu/people/marzyeh-ghassemi/",
-      "csrankings_names": ["Marzyeh Ghassemi"],
-      "evidence": [
-        {
-          "topic": "medts",
-          "url": "https://www.csail.mit.edu/research/multivariate-signal-representations-predict-icu-interventions",
-          "summary": "Multivariate physiological signal representations and prediction of ICU interventions.",
-          "kind": "project"
-        }
-      ]
-    },
-    {
-      "id": "david-sontag",
-      "name": "David Sontag",
-      "affiliation": "Massachusetts Inst. of Technology",
-      "homepage": "https://groups.csail.mit.edu/clinicalml/author/david-sontag/",
-      "csrankings_names": ["David A. Sontag"],
-      "evidence": [
-        {
-          "topic": "medts",
-          "url": "https://arxiv.org/abs/1606.01865",
-          "summary": "Coauthored GRU-D for missing clinical time series, with experiments on MIMIC-III and PhysioNet.",
-          "kind": "paper",
-          "year": 2016
-        }
-      ]
-    },
-    {
-      "id": "jose-carmena",
-      "name": "Jose M. Carmena",
-      "affiliation": "Univ. of California - Berkeley",
-      "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/carmena.html",
-      "csrankings_names": ["Jose M. Carmena"],
+      "id": "bin-he",
+      "name": "Bin He",
+      "affiliation": "Carnegie Mellon University",
+      "homepage": "https://www.cmu.edu/bme/helab/People/faculty/bhe.html",
+      "csrankings_names": [],
       "evidence": [
         {
           "topic": "bci",
-          "url": "https://people.eecs.berkeley.edu/~carmena/",
-          "summary": "Brain-machine interfaces, neural control and neuroprosthetic learning.",
+          "url": "https://www.cmu.edu/bme/helab/People/faculty/bhe.html",
+          "summary": "Noninvasive EEG-based brain-computer interfaces and neural control of robotic devices.",
           "kind": "profile"
         }
       ]
@@ -155,17 +34,1718 @@
       ]
     },
     {
-      "id": "bin-he",
-      "name": "Bin He",
-      "affiliation": "Carnegie Mellon University",
-      "homepage": "https://www.cmu.edu/bme/helab/People/faculty/bhe.html",
-      "csrankings_names": [],
+      "id": "david-sontag",
+      "name": "David Sontag",
+      "affiliation": "Massachusetts Inst. of Technology",
+      "homepage": "https://groups.csail.mit.edu/clinicalml/author/david-sontag/",
+      "csrankings_names": [
+        "David A. Sontag"
+      ],
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://arxiv.org/abs/1606.01865",
+          "summary": "Coauthored GRU-D for missing clinical time series, with experiments on MIMIC-III and PhysioNet.",
+          "kind": "paper",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "id": "marzyeh-ghassemi",
+      "name": "Marzyeh Ghassemi",
+      "affiliation": "Massachusetts Inst. of Technology",
+      "homepage": "https://www.eecs.mit.edu/people/marzyeh-ghassemi/",
+      "csrankings_names": [
+        "Marzyeh Ghassemi"
+      ],
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.csail.mit.edu/research/multivariate-signal-representations-predict-icu-interventions",
+          "summary": "Multivariate physiological signal representations and prediction of ICU interventions.",
+          "kind": "project"
+        }
+      ]
+    },
+    {
+      "id": "jose-carmena",
+      "name": "Jose M. Carmena",
+      "affiliation": "Univ. of California - Berkeley",
+      "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/carmena.html",
+      "csrankings_names": [
+        "Jose M. Carmena"
+      ],
       "evidence": [
         {
           "topic": "bci",
-          "url": "https://www.cmu.edu/bme/helab/People/faculty/bhe.html",
-          "summary": "Noninvasive EEG-based brain-computer interfaces and neural control of robotic devices.",
+          "url": "https://people.eecs.berkeley.edu/~carmena/",
+          "summary": "Brain-machine interfaces, neural control and neuroprosthetic learning.",
           "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "eamonn-keogh",
+      "name": "Eamonn Keogh",
+      "affiliation": "Univ. of California - Riverside",
+      "homepage": "https://www.cs.ucr.edu/~eamonn/",
+      "csrankings_names": [
+        "Eamonn J. Keogh"
+      ],
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://www.cs.ucr.edu/~eamonn/",
+          "summary": "Time-series data mining, similarity search, matrix profiles and classification datasets.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "rose-yu",
+      "name": "Rose Yu",
+      "affiliation": "Univ. of California - San Diego",
+      "homepage": "https://roseyu.com/",
+      "csrankings_names": [
+        "Rose Yu",
+        "Qi Rose Yu"
+      ],
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://roseyu.com/",
+          "summary": "Spatiotemporal machine learning and time-series forecasting.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "jimeng-sun",
+      "name": "Jimeng Sun",
+      "affiliation": "Univ. of Illinois at Urbana-Champaign",
+      "homepage": "https://www.sunlab.org/",
+      "csrankings_names": [
+        "Jimeng Sun 0001"
+      ],
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://arxiv.org/abs/2603.24828",
+          "summary": "Coauthored a reproducibility study of interpretation methods for time-series clinical prediction (preprint).",
+          "kind": "paper",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "yan-liu-usc",
+      "name": "Yan Liu",
+      "affiliation": "University of Southern California",
+      "homepage": "https://sites.google.com/view/yanliu-ai/home",
+      "csrankings_names": [
+        "Yan Liu 0002"
+      ],
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://sites.google.com/view/yanliu-ai/home",
+          "summary": "Machine learning for time series, including applications to health and sustainability.",
+          "kind": "profile"
+        },
+        {
+          "topic": "medts",
+          "url": "https://arxiv.org/abs/1606.01865",
+          "summary": "Coauthored GRU-D for multivariate time series with missing values, evaluated on clinical datasets.",
+          "kind": "paper",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "id": "abhishek-dubey",
+      "name": "Abhishek Dubey",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/abhishek-dubey/",
+      "csrankings_names": [
+        "Abhishek Dubey"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing",
+        "Electrical and Computer Engineering"
+      ],
+      "appointment": "Associate Dean for Research",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://scopelab.ai/files/iccps2026_wenflow.pdf",
+          "summary": "Coauthored WENFlow, an unsupervised method for spatiotemporal anomaly detection in multivariate sensor time series.",
+          "kind": "paper",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "adam-wright",
+      "name": "Adam Wright",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/adam-wright-phd-facmi-famia-fiahsi",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Professor Department of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36303456/",
+          "summary": "Coauthored an LSTM-based model that captures temporal clinical trends to predict new-onset delirium.",
+          "kind": "paper",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "id": "allison-mccoy",
+      "name": "Allison McCoy",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/allison-mccoy-phd-achip-facmi-famia",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Associate Professor Department of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36303456/",
+          "summary": "Coauthored an LSTM-based model that captures temporal clinical trends to predict new-onset delirium.",
+          "kind": "paper",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "id": "andre-diedrich",
+      "name": "Andre Diedrich",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/andre-diedrich",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Engineering"
+      ],
+      "appointment": "Research Professor of Biomedical Engineering, Biomedical Engineering",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://engineering.vanderbilt.edu/bio/andre-diedrich",
+          "summary": "Signal processing of sympathetic neural outflow and spectral modeling of physiological signals in autonomic dysfunction.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "andrew-spieker",
+      "name": "Andrew Spieker",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/biostatistics/person/andrew-spieker",
+      "csrankings_names": [],
+      "departments": [
+        "Biostatistics"
+      ],
+      "appointment": "Director of Graduate Studies Associate Professor of Biostatistics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/biostatistics-graduate/research-interests/",
+          "summary": "The department explicitly lists this faculty member under longitudinal analysis; work concerns statistical analysis of repeated biomedical measurements.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "barbara-jo-achuff",
+      "name": "Barbara-Jo Achuff",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/barbara-jo-achuff-md",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Associate Professor Department of Pediatrics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vumc.org/dbmi/person/barbara-jo-achuff-md",
+          "summary": "Analysis of ICU time series and beat-to-beat blood-pressure measurements around medication administration.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "baxter-p-rogers",
+      "name": "Baxter P. Rogers",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/vuiis/person/baxter-p-rogers-phd",
+      "csrankings_names": [],
+      "departments": [
+        "Institute of Imaging Science",
+        "Biomedical Engineering"
+      ],
+      "appointment": "Research Professor Radiology & Radiological Sciences, Biomedical Engineering, Psychiatry",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vumc.org/vuiis/person/baxter-p-rogers-phd",
+          "summary": "Methods for minute-to-minute functional-connectivity dynamics and spatiotemporal analysis of fMRI signals.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "benjamin-french",
+      "name": "Benjamin French",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/biostatistics/person/benjamin-french",
+      "csrankings_names": [],
+      "departments": [
+        "Biostatistics"
+      ],
+      "appointment": "Professor of Biostatistics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/biostatistics-graduate/research-interests/",
+          "summary": "The department explicitly lists this faculty member under longitudinal analysis; work concerns statistical analysis of repeated biomedical measurements.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "bennett-landman",
+      "name": "Bennett Landman",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/bennett-landman",
+      "csrankings_names": [
+        "Bennett A. Landman",
+        "Bennett Allan Landman"
+      ],
+      "departments": [
+        "Electrical and Computer Engineering",
+        "Biomedical Engineering",
+        "Biomedical Informatics",
+        "Brain Institute training faculty",
+        "Institute of Imaging Science"
+      ],
+      "appointment": "Director, Vanderbilt Lab for Immersive AI Translation (VALIANT), University Stevenson Chair, Electrical and Computer Engineering University Distinguished Professor, University Professor of Electrical and Computer Engineering, Electrical and Computer Engineering Professor of Computer Science, Computer Science Professor of Biomedical Engineering, Biomedical Engineering Professor of Radiology and Radiological Sciences, Radiology & Radiological Sciences Professor of Psychiatry and Behavioral Sciences, Psychology Professor of Biomedical Informatics, Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vumc.org/vuiis/person/bennett-landman-phd",
+          "summary": "Computational methods for large-scale longitudinal neuroimaging data.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "bradley-malin",
+      "name": "Bradley Malin",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/bradley-malin-phd",
+      "csrankings_names": [
+        "Bradley A. Malin"
+      ],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Accenture Professor & Vice Chair for Research Affairs Department of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://arxiv.org/abs/2607.25864",
+          "summary": "Coauthored DRIFT, intervention-conditioned forecasts of ICU physiological trajectories (preprint).",
+          "kind": "paper",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "bret-alvis",
+      "name": "Bret Alvis",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/bret-alvis",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Engineering"
+      ],
+      "appointment": "Associate Professor of Anesthesiology Critical Care Medicine, Anesthesiology Associate Professor of Biomedical Engineering, Biomedical Engineering",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://engineering.vanderbilt.edu/bio/bret-alvis",
+          "summary": "Deconvolution and harmonic analysis of cardiac and respiratory components in vascular waveforms.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "brett-byram",
+      "name": "Brett Byram",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/brett-byram",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Engineering"
+      ],
+      "appointment": "Associate Professor of Biomedical Engineering, Biomedical Engineering Hoy Family Faculty Fellow, Biomedical Engineering",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://beamlab.vandyvaliant.ai/research/default.html",
+          "summary": "Bayesian tracking of tissue motion, dynamic elastography and ultrasound perfusion measurements.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "bryan-steitz",
+      "name": "Bryan Steitz",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/bryan-steitz-phd",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Assistant Professor Department of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36303456/",
+          "summary": "Coauthored an LSTM-based model that captures temporal clinical trends to predict new-onset delirium.",
+          "kind": "paper",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "id": "bunmi-o-olatunji",
+      "name": "Bunmi O. Olatunji",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vanderbilt.edu/psychological_sciences/bio/bunmi-olatunji",
+      "csrankings_names": [],
+      "departments": [
+        "Psychological Sciences"
+      ],
+      "appointment": "Gertrude Conaway Vanderbilt Professor of PsychologyProfessor of PsychiatryDirector of Clinical Training",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/psychological_sciences/bio/bunmi-olatunji",
+          "summary": "Longitudinal trait-state and time-varying models of sleep disturbance, insomnia and clinical symptoms.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "catie-chang",
+      "name": "Catie Chang",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.cchanglab.net/people",
+      "csrankings_names": [
+        "Catie Chang"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing",
+        "Electrical and Computer Engineering",
+        "Biomedical Engineering",
+        "Brain Institute training faculty"
+      ],
+      "appointment": "Assistant Professor",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.cchanglab.net/research",
+          "summary": "Computational analysis of time-varying brain activity, EEG-fMRI integration and physiological signal reconstruction.",
+          "kind": "profile"
+        },
+        {
+          "topic": "medts",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/29c294ddc628c94cd2c636383ef106c1-Abstract-Conference.html",
+          "summary": "Coauthored NeuroBOLT, a model translating EEG time series into fMRI signals through temporal, spatial and spectral representations.",
+          "kind": "paper",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "chao-yan",
+      "name": "Chao Yan",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/chao-yan-phd-ms",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Assistant Professor Department of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34402496/",
+          "summary": "Coauthored next-day brain-function state-transition prediction from repeated ICU clinical measurements.",
+          "kind": "paper",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "id": "christos-constantinidis",
+      "name": "Christos Constantinidis",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/christos-constantinidis",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Engineering",
+        "Brain Institute training faculty"
+      ],
+      "appointment": "Professor of Biomedical Engineering, Biomedical Engineering Associate Director, Vanderbilt Brain Institute, University Stevenson Chair, Biomedical Engineering Professor of Psychology, Psychology Professor of Ophthalmology & Visual Sciences, Ophthalmology & Visual Sciences Professor of Neurological Surgery, Neurological Surgery Professor Radiology & Radiological Sciences, Radiology & Radiological Sciences",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://as.vanderbilt.edu/psychology/2025/03/03/3-6-25-christos-constantinidis-timescales-of-learning-in-the-prefrontal-cortex/",
+          "summary": "Computational analysis of neuronal firing and local-field-potential dynamics across sub-second to developmental timescales.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "colin-g-walsh",
+      "name": "Colin G. Walsh",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/colin-g-walsh-md-ma-facmi-famia-fiahsi",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Associate Professor Department of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://acamh.onlinelibrary.wiley.com/doi/10.1111/jcpp.12916",
+          "summary": "Developed suicide-attempt prediction using longitudinal clinical data.",
+          "kind": "paper",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "id": "d-mitchell-wilkes",
+      "name": "D. Mitchell Wilkes",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/mitchell-wilkes",
+      "csrankings_names": [],
+      "departments": [
+        "Electrical and Computer Engineering"
+      ],
+      "appointment": "Associate Professor of Electrical and Computer Engineering, Electrical and Computer Engineering",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://academic.oup.com/cercorcomms/article/1/1/tgaa056/5898571",
+          "summary": "Coauthored estimation of the hemodynamic response function from resting-state fMRI time series in white matter.",
+          "kind": "paper",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "id": "dandan-liu",
+      "name": "Dandan Liu",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/biostatistics/person/dandan-liu",
+      "csrankings_names": [],
+      "departments": [
+        "Biostatistics"
+      ],
+      "appointment": "Associate Professor of Biostatistics Executive director Vanderbilt Biostatistics Data Coordinating Center (VBDCC) Director Vanderbilt Institute for Clinical and Translational Research (VICTR) Methods Program",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/biostatistics-graduate/research-interests/",
+          "summary": "The department explicitly lists this faculty member under longitudinal analysis; work concerns statistical analysis of repeated biomedical measurements.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "daniel-b-work",
+      "name": "Daniel B. Work",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/daniel-work",
+      "csrankings_names": [
+        "Dan Work",
+        "Daniel B. Work"
+      ],
+      "departments": [
+        "Civil and Environmental Engineering"
+      ],
+      "appointment": "Faculty; appointment cross-checked against official university sources",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://news.vanderbilt.edu/experts/expertprofile/?expert_username=daniel.work",
+          "summary": "Develops traffic estimation, inverse modeling and transportation data-analysis methods for time-varying traffic systems.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "daniel-gonzales",
+      "name": "Daniel Gonzales",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/daniel-gonzales",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Engineering",
+        "Brain Institute training faculty"
+      ],
+      "appointment": "Assistant Professor of Biomedical Engineering, Biomedical Engineering",
+      "evidence": [
+        {
+          "topic": "bci",
+          "url": "https://engineering.vanderbilt.edu/bio/daniel-gonzales",
+          "summary": "Develops brain-computer interfaces and studies neural computations underlying neuroprosthetic control.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "daniel-moyer",
+      "name": "Daniel Moyer",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/daniel-moyer/",
+      "csrankings_names": [
+        "Daniel Moyer"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing"
+      ],
+      "appointment": "Assistant Professor",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/29c294ddc628c94cd2c636383ef106c1-Abstract-Conference.html",
+          "summary": "Coauthored NeuroBOLT, a model translating EEG time series into fMRI signals through temporal, spatial and spectral representations.",
+          "kind": "paper",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "dario-englot",
+      "name": "Dario Englot",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/dario-englot",
+      "csrankings_names": [
+        "Dario J. Englot"
+      ],
+      "departments": [
+        "Electrical and Computer Engineering",
+        "Biomedical Engineering",
+        "Institute of Imaging Science",
+        "Brain Institute training faculty"
+      ],
+      "appointment": "Associate Professor of Neurological Surgery Neurology, Radiology & Radiological Sciences, Computer Science, Electrical & Computer Engineering, and Biomedical Engineering",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/29c294ddc628c94cd2c636383ef106c1-Abstract-Conference.html",
+          "summary": "Coauthored NeuroBOLT, a model translating EEG time series into fMRI signals through temporal, spatial and spectral representations.",
+          "kind": "paper",
+          "year": 2024
+        },
+        {
+          "topic": "medts",
+          "url": "https://www.vumc.org/vuiis/person/dario-englot-ms-phd-md",
+          "summary": "Computational analysis of intracranial EEG, fMRI and seizure-related brain-network activity in epilepsy.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "frank-e-harrell-jr",
+      "name": "Frank E. Harrell, Jr.",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/biostatistics/person/frank-e-harrell-jr",
+      "csrankings_names": [],
+      "departments": [
+        "Biostatistics"
+      ],
+      "appointment": "Professor of Biostatistics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/biostatistics-graduate/research-interests/",
+          "summary": "The department explicitly lists this faculty member under longitudinal analysis; work concerns statistical analysis of repeated biomedical measurements.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "gautam-biswas",
+      "name": "Gautam Biswas",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/gautam-biswas/",
+      "csrankings_names": [
+        "Gautam Biswas"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing",
+        "Electrical and Computer Engineering"
+      ],
+      "appointment": "Professor",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://lab.vanderbilt.edu/vumacs/publications/",
+          "summary": "Published work includes few-shot time-series anomaly detection for HVAC measurements and spacecraft telemetry.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "h-andrew-schwartz",
+      "name": "H. Andrew Schwartz",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/h-andrew-schwartz/",
+      "csrankings_names": [
+        "H. Andrew Schwartz",
+        "Hansen Andrew Schwartz"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing"
+      ],
+      "appointment": "Associate Professor",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://computing.vanderbilt.edu/person/h-andrew-schwartz/",
+          "summary": "Research includes modeling and evaluation of longitudinal behavioral sequences and temporally contextualized language data.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "hakmook-kang",
+      "name": "Hakmook Kang",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/biostatistics/person/hakmook-kang",
+      "csrankings_names": [],
+      "departments": [
+        "Biostatistics"
+      ],
+      "appointment": "Associate Professor of Biostatistics Director, Data Science Core Vanderbilt Kennedy Center Associate Director for Graduate Studies Data Science institute",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/biostatistics-graduate/hakmook-kang/",
+          "summary": "Spatiotemporal modeling of MRI and Bayesian hierarchical models for multimodal neuroimaging.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "hiba-baroud",
+      "name": "Hiba Baroud",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/hiba-baroud",
+      "csrankings_names": [
+        "Hiba Baroud"
+      ],
+      "departments": [
+        "Civil and Environmental Engineering"
+      ],
+      "appointment": "Faculty; appointment cross-checked against official university sources",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://news.vanderbilt.edu/experts/expertprofile/?expert_username=hiba.baroud",
+          "summary": "Statistical time-series and stochastic methods for forecasting and analyzing infrastructure disruption and recovery.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "ipek-oguz",
+      "name": "Ipek Oguz",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/ipek-oguz/",
+      "csrankings_names": [
+        "Ipek Oguz"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing",
+        "Electrical and Computer Engineering"
+      ],
+      "appointment": "Associate Professor",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://computing.vanderbilt.edu/person/ipek-oguz/",
+          "summary": "Graph-based methods and machine learning for longitudinal neuroimaging, ophthalmic and obstetric imaging studies.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "james-christopher-chris-slaughter",
+      "name": "James Christopher (Chris) Slaughter",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/biostatistics/person/james-christopher-chris-slaughter",
+      "csrankings_names": [],
+      "departments": [
+        "Biostatistics"
+      ],
+      "appointment": "Associate Professor of Biostatistics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/biostatistics-graduate/research-interests/",
+          "summary": "The department explicitly lists this faculty member under longitudinal analysis; work concerns statistical analysis of repeated biomedical measurements.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "james-weimer",
+      "name": "James Weimer",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/james-weimer/",
+      "csrankings_names": [
+        "James Weimer"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing",
+        "Biomedical Engineering"
+      ],
+      "appointment": "Assistant Professor",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://jamesweimer.net/research/",
+          "summary": "Physiological monitoring, wearable sensing, remote opioid sensing and mechanical-ventilation systems.",
+          "kind": "profile"
+        },
+        {
+          "topic": "ts",
+          "url": "https://jamesweimer.net/publications/",
+          "summary": "Signal-temporal monitoring and model-aware analysis of sensor measurements in cyber-physical systems.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "jinyuan-liu",
+      "name": "Jinyuan Liu",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/biostatistics/person/jinyuan-liu",
+      "csrankings_names": [],
+      "departments": [
+        "Biostatistics"
+      ],
+      "appointment": "Assistant Professor of Biostatistics and Psychiatry & Behavioral Sciences",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/biostatistics-graduate/research-interests/",
+          "summary": "The department explicitly lists this faculty member under longitudinal analysis; work concerns statistical analysis of repeated biomedical measurements.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "joe-rodgers",
+      "name": "Joe Rodgers",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vanderbilt.edu/psychological_sciences/bio/joe-rodgers",
+      "csrankings_names": [],
+      "departments": [
+        "Psychological Sciences"
+      ],
+      "appointment": "Professor of Psychology and Human Development, Emeritus",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://www.vanderbilt.edu/psychological_sciences/bio/joe-rodgers",
+          "summary": "Coauthored graphical methods for interrupted time-series designs, listed among his representative publications.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "john-c-gore",
+      "name": "John C Gore",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/john-gore",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Engineering",
+        "Brain Institute training faculty",
+        "Institute of Imaging Science"
+      ],
+      "appointment": "University Distinguished Professor, School of Engineering Professor of Radiology and Radiological Sciences, Radiology & Radiological Sciences Professor of Biomedical Engineering, Biomedical Engineering Professor of Physics and Astronomy, Physics & Astronomy Member, National Academy of Engineering, School of Engineering",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://academic.oup.com/cercorcomms/article/1/1/tgaa056/5898571",
+          "summary": "Coauthored estimation of the hemodynamic response function from resting-state fMRI time series in white matter.",
+          "kind": "paper",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "id": "jonathan-s-schildcrout",
+      "name": "Jonathan S. Schildcrout",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/biostatistics/person/jonathan-s-schildcrout",
+      "csrankings_names": [],
+      "departments": [
+        "Biostatistics"
+      ],
+      "appointment": "Vice Chair for Research, Department of Biostatistics Professor of Biostatistics and Anesthesiology",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/biostatistics-graduate/research-interests/",
+          "summary": "The department explicitly lists this faculty member under longitudinal analysis; work concerns statistical analysis of repeated biomedical measurements.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "julia-sheffield",
+      "name": "Julia Sheffield",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/psychiatry/person/julia-sheffield-phd",
+      "csrankings_names": [],
+      "departments": [
+        "Brain Institute training faculty"
+      ],
+      "appointment": "Adult Psychiatry Research",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vumc.org/psychiatry/person/julia-sheffield-phd",
+          "summary": "Uses computational modeling in a longitudinal study of belief updating and recovery from acute delusions.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "keivan-g-stassun",
+      "name": "Keivan G. Stassun",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://as.vanderbilt.edu/physics-astronomy/bio/keivan-stassun",
+      "csrankings_names": [
+        "Keivan G. Stassun"
+      ],
+      "departments": [
+        "Physics and Astronomy"
+      ],
+      "appointment": "Faculty; appointment cross-checked against official university sources",
+      "appointment_note": "At Vanderbilt on the review date; announced departure on December 31, 2026 for the University of Georgia.",
+      "appointment_note_source": "https://www.vanderbilt.edu/autismandinnovation/founding-director-keivan-stassun-to-leave-fcai-for-new-leadership-role-at-uga/",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://www.vanderbilt.edu/valiant/2025/05/21/a-spatiotemporal-data-cube-approach-to-classification-of-variable-stars-a-catalog-of-candidate-variable-stars-from-the-tess-full-frame-image-raw-data/",
+          "summary": "Coauthored spatiotemporal machine-learning methods for variable-star classification from astronomical brightness measurements.",
+          "kind": "project"
+        }
+      ]
+    },
+    {
+      "id": "kevin-leach",
+      "name": "Kevin Leach",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/kevin-leach/",
+      "csrankings_names": [
+        "Kevin Leach"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing"
+      ],
+      "appointment": "Assistant Professor",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://www.taylortjohnson.com/research/nguyen2026iccps.pdf",
+          "summary": "Coauthored LOGSAFE on robust federated learning for time-series predictions in cyber-physical systems.",
+          "kind": "paper",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "kristopher-j-preacher",
+      "name": "Kristopher J. Preacher",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vanderbilt.edu/psychological_sciences/bio/kristopher-preacher",
+      "csrankings_names": [],
+      "departments": [
+        "Psychological Sciences"
+      ],
+      "appointment": "ProfessorLois Autrey Betts Chair in Education & Human DevelopmentAssociate Chair, Dept. of Psychology & Human Development",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://www.vanderbilt.edu/psychological_sciences/bio/kristopher-preacher",
+          "summary": "Develops structural-equation and multilevel models for longitudinal data.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "leena-choi",
+      "name": "Leena Choi",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/leena-choi-phd",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Informatics",
+        "Biostatistics"
+      ],
+      "appointment": "Vice Chair of Outreach and Career Development Professor of Biostatistics and Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/biostatistics-graduate/research-interests/",
+          "summary": "The department explicitly lists this faculty member under longitudinal analysis; work concerns statistical analysis of repeated biomedical measurements.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "lina-sulieman",
+      "name": "Lina Sulieman",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/lina-sulieman-phd",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Research Assistant Professor Department of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vumc.org/dbmi/person/lina-sulieman-phd",
+          "summary": "Temporal pattern mining and machine learning for clinical risk prediction.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "martin-j-gallagher",
+      "name": "Martin J. Gallagher",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/neurology/person/martin-j-gallagher-md-phd",
+      "csrankings_names": [],
+      "departments": [
+        "Brain Institute training faculty"
+      ],
+      "appointment": "Associate Professor of Neurology",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vumc.org/neurology/person/martin-j-gallagher-md-phd",
+          "summary": "Advanced signal-processing analysis of electrophysiological recordings to study epileptic circuits and cognitive networks.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "matt-shotwell",
+      "name": "Matt Shotwell",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/biostatistics/person/matt-shotwell",
+      "csrankings_names": [],
+      "departments": [
+        "Biostatistics"
+      ],
+      "appointment": "Associate Professor of Biostatistics and Anesthesiology Director, Design & Analysis Unit Vanderbilt Biostatistics Data Coordinating Center (VBDCC)",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/biostatistics-graduate/matt-shotwell/",
+          "summary": "Statistical treatment and design of dynamic challenge-response experiments in pharmacokinetics and electrophysiology.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "meiyi-ma",
+      "name": "Meiyi Ma",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/meiyi-ma/",
+      "csrankings_names": [
+        "Meiyi Ma"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing"
+      ],
+      "appointment": "Assistant Professor",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://meiyima.github.io/publications.html",
+          "summary": "Wearable-sensor exercise segmentation for physical therapy, including the 2025 EXACT method.",
+          "kind": "profile"
+        },
+        {
+          "topic": "ts",
+          "url": "https://www.taylortjohnson.com/research/nguyen2026iccps.pdf",
+          "summary": "Coauthored LOGSAFE on robust federated learning for time-series predictions in cyber-physical systems.",
+          "kind": "paper",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "michael-e-matheny",
+      "name": "Michael E. Matheny",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/michael-e-matheny-md-ms-mph-facmi-famia",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Professor Department of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39634332/",
+          "summary": "Coauthored recurrent GRU-based prediction of nephrotoxic acute kidney injury from clinical measurements and medications.",
+          "kind": "paper",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "michael-goldfarb",
+      "name": "Michael Goldfarb",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/michael-goldfarb",
+      "csrankings_names": [],
+      "departments": [
+        "Electrical and Computer Engineering"
+      ],
+      "appointment": "H. Fort Flowers Professor of Mechanical Engineering, Mechanical Engineering Professor of Mechanical Engineering, Mechanical Engineering Professor of Electrical Engineering, Electrical and Computer Engineering Professor of Physical Medicine and Rehabilitation, Physical Medicine and Rehabilitation Co-director, Center for Rehabilitation Engineering and Assistive Technology, Mechanical Engineering",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://my.vanderbilt.edu/goldfarb/upper-extremity-prostheses/",
+          "summary": "Combines EMG recordings with movement measurements and pattern-based control for myoelectric arm prostheses.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "mikail-rubinov",
+      "name": "Mikail Rubinov",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/mikail-rubinov",
+      "csrankings_names": [
+        "Mikail Rubinov"
+      ],
+      "departments": [
+        "Biomedical Engineering",
+        "Brain Institute training faculty"
+      ],
+      "appointment": "Research Associate Professor of Biomedical Engineering, Biomedical Engineering",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://engineering.vanderbilt.edu/2023/01/18/vanderbilt-engineer-receives-nsf-award-to-develop-neural-analysis-methodology/",
+          "summary": "Develops computational methods to analyze changing large-scale neural activity across behavioral states in humans and zebrafish.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "muwei-li",
+      "name": "Muwei Li",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/vuiis/person/muwei-li-phd",
+      "csrankings_names": [],
+      "departments": [
+        "Institute of Imaging Science"
+      ],
+      "appointment": "Research Assistant Professor Radiology & Radiological Sciences",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://academic.oup.com/cercorcomms/article/1/1/tgaa056/5898571",
+          "summary": "Coauthored estimation of the hemodynamic response function from resting-state fMRI time series in white matter.",
+          "kind": "paper",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "id": "nilanjan-sarkar",
+      "name": "Nilanjan Sarkar",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/nilanjan-sarkar",
+      "csrankings_names": [
+        "Nilanjan Sarkar"
+      ],
+      "departments": [
+        "Electrical and Computer Engineering"
+      ],
+      "appointment": "Vice Dean, University Senior Associate Dean for Faculty Affairs, Mechanical Engineering David K. Wilson Professor of Engineering, Mechanical Engineering Professor of Mechanical Engineering, Mechanical Engineering Professor of Computer Engineering, Electrical and Computer Engineering Professor of Computer Science, Computer Science",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://engineering.vanderbilt.edu/bio/nilanjan-sarkar",
+          "summary": "Machine learning and sensor fusion to infer human affect from physiology for rehabilitation and assistive systems.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "panpan-zhang",
+      "name": "Panpan Zhang",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/biostatistics/person/panpan-zhang",
+      "csrankings_names": [],
+      "departments": [
+        "Biostatistics"
+      ],
+      "appointment": "Assistant Professor of Biostatistics Assistant Professor Vanderbilt Memory and Alzheimer's Center (VMAC)",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/biostatistics-graduate/panpan-zhang/",
+          "summary": "Develops longitudinal statistical methods for dementia risk and neurodegenerative disease, including missing-data and measurement-error problems.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "philippe-schyns",
+      "name": "Philippe Schyns",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/philippe-schyns/",
+      "csrankings_names": [
+        "Philippe G. Schyns"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing"
+      ],
+      "appointment": "Professor",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://computing.vanderbilt.edu/person/philippe-schyns/",
+          "summary": "Develops dynamic MEG neuroimaging and computational models of information representation and communication across brain networks.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "qingxia-cindy-chen",
+      "name": "Qingxia (Cindy) Chen",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/qingxia-cindy-chen-phd",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Informatics",
+        "Biostatistics"
+      ],
+      "appointment": "Vice Chair of Education Department of Biostatistics Director, Biostatistics Post-Graduate Studies and Distance Learning Director, Executive Data Science Program Departments of Biostatistics and Biomedical Informatics Professor of Biostatistics, Biomedical Informatics, and Ophthalmology & Visual Sciences",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/biostatistics-graduate/research-interests/",
+          "summary": "The department explicitly lists this faculty member under longitudinal analysis; work concerns statistical analysis of repeated biomedical measurements.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "richard-alan-peters-ii",
+      "name": "Richard Alan Peters, II",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/richard-alan-peters",
+      "csrankings_names": [],
+      "departments": [
+        "Electrical and Computer Engineering"
+      ],
+      "appointment": "Associate Professor of Electrical Engineering, Electrical and Computer Engineering",
+      "evidence": [
+        {
+          "topic": "bci",
+          "url": "https://ir.vanderbilt.edu/items/08799270-b0e0-4608-8ed6-9776452bec12/full",
+          "summary": "Listed as a co-advisor of a 2024 thesis developing a BCI that decodes decisions from neuronal recordings.",
+          "kind": "project"
+        }
+      ]
+    },
+    {
+      "id": "roza-gunes-bayrak",
+      "name": "Roza Gunes Bayrak",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.cchanglab.net/people",
+      "csrankings_names": [],
+      "departments": [
+        "Electrical and Computer Engineering"
+      ],
+      "appointment": "Research Assistant Professor of Electrical and Computer Engineering, Electrical and Computer Engineering",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/29c294ddc628c94cd2c636383ef106c1-Abstract-Conference.html",
+          "summary": "Coauthored NeuroBOLT, a model translating EEG time series into fMRI signals through temporal, spatial and spectral representations.",
+          "kind": "paper",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "ruogu-rena-fang",
+      "name": "Ruogu (Rena) Fang",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/ruogu-rena-fang-phd-ms",
+      "csrankings_names": [
+        "Ruogu Fang"
+      ],
+      "departments": [
+        "Biomedical Informatics",
+        "Biomedical Engineering",
+        "Institute of Imaging Science"
+      ],
+      "appointment": "Professor of Biomedical Engineering, Biomedical Engineering Flowers Family Endowed Dean’s Faculty Fellow, Dean's Office (Engineering)",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/vinse/personnel/?bio=ruogu+fang",
+          "summary": "Research includes manifold learning of dynamic brain measurements and prediction of neurophysiological responses.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "sarah-bick",
+      "name": "Sarah Bick",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/neurosurgerydept/person/sarah-bick-md",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Engineering",
+        "Brain Institute training faculty"
+      ],
+      "appointment": "Assistant Professor, Department of Neurosurgery",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vumc.org/neurosurgerydept/person/sarah-bick-md",
+          "summary": "Computational analysis of human intracranial neurophysiological signals underlying memory, cognition and emotion.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "sarah-brown-schmidt",
+      "name": "Sarah Brown-Schmidt",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vanderbilt.edu/psychological_sciences/bio/sarah-brown-schmidt",
+      "csrankings_names": [],
+      "departments": [
+        "Psychological Sciences"
+      ],
+      "appointment": "Professor of Psychology and Human Development",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://www.vanderbilt.edu/psychological_sciences/bio/sarah-brown-schmidt",
+          "summary": "Coauthored a dynamic item-response model for intensive polytomous eye-tracking time series, listed in her publications.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "sean-m-polyn",
+      "name": "Sean M. Polyn",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vanderbilt.edu/psychological_sciences/bio/sean-polyn",
+      "csrankings_names": [],
+      "departments": [
+        "Brain Institute training faculty",
+        "Psychological Sciences"
+      ],
+      "appointment": "Associate Professor of Psychology",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/valiant/2026/09/26/from-form-to-concept-a-dynamic-spatiotemporal-brain-network-cascade-supports-language-comprehension/",
+          "summary": "Coauthored joint EEG-fMRI analysis of the temporal cascade of brain networks during language comprehension.",
+          "kind": "project"
+        }
+      ]
+    },
+    {
+      "id": "siru-liu",
+      "name": "Siru Liu",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/siru-liu-phd",
+      "csrankings_names": [
+        "Siru Liu"
+      ],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Assistant Professor Department of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36303456/",
+          "summary": "Coauthored an LSTM-based model that captures temporal clinical trends to predict new-onset delirium.",
+          "kind": "paper",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "id": "soheil-kolouri",
+      "name": "Soheil Kolouri",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/soheil-kolouri/",
+      "csrankings_names": [
+        "Soheil Kolouri"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing"
+      ],
+      "appointment": "Assistant Professor",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/29c294ddc628c94cd2c636383ef106c1-Abstract-Conference.html",
+          "summary": "Coauthored NeuroBOLT, a model translating EEG time series into fMRI signals through temporal, spatial and spectral representations.",
+          "kind": "paper",
+          "year": 2024
+        }
+      ]
+    },
+    {
+      "id": "sonya-k-sterba",
+      "name": "Sonya K. Sterba",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vanderbilt.edu/psychological_sciences/bio/sonya-sterba",
+      "csrankings_names": [],
+      "departments": [
+        "Psychological Sciences"
+      ],
+      "appointment": "Professor of Psychology and Human DevelopmentDirector of the Quantitative Methods & Data Analytics Program, and Faculty Advisor for the Data Science Institute",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://www.vanderbilt.edu/psychological_sciences/bio/sonya-sterba",
+          "summary": "Develops latent-variable, mixture and multilevel models for longitudinal data, including autocorrelation in growth analysis.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "sun-joo-cho",
+      "name": "Sun-Joo Cho",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vanderbilt.edu/psychological_sciences/bio/sun-joo-cho",
+      "csrankings_names": [],
+      "departments": [
+        "Psychological Sciences"
+      ],
+      "appointment": "Professor of Psychology and Human DevelopmentVanderbilt Data Science Institute Affiliate Faculty; LIVE Learning Innovation Incubator Affiliate Faculty",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://www.vanderbilt.edu/psychological_sciences/bio/sun-joo-cho",
+          "summary": "Method development for intensive, multivariate, categorical and irregular longitudinal time-series measurements.",
+          "kind": "profile"
+        },
+        {
+          "topic": "medts",
+          "url": "https://www.vanderbilt.edu/psychological_sciences/bio/sun-joo-cho",
+          "summary": "Longitudinal and intensive time-series modeling for ambulatory physiology, wearables and ecological momentary assessment.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "taylor-johnson",
+      "name": "Taylor Johnson",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/bio/taylor-johnson/",
+      "csrankings_names": [
+        "Taylor Johnson",
+        "Taylor T. Johnson",
+        "Taylor Thomas Johnson"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing",
+        "Electrical and Computer Engineering"
+      ],
+      "appointment": "Associate Dean for Graduate Education",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://www.taylortjohnson.com/research/nguyen2026iccps.pdf",
+          "summary": "Coauthored LOGSAFE on robust federated learning for time-series predictions in cyber-physical systems.",
+          "kind": "paper",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "thilo-womelsdorf",
+      "name": "Thilo Womelsdorf",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/thilo-womelsdorf",
+      "csrankings_names": [
+        "Thilo Womelsdorf"
+      ],
+      "departments": [
+        "Biomedical Engineering",
+        "Psychological Sciences",
+        "Brain Institute training faculty"
+      ],
+      "appointment": "Professor of Psychology",
+      "evidence": [
+        {
+          "topic": "bci",
+          "url": "https://ir.vanderbilt.edu/items/08799270-b0e0-4608-8ed6-9776452bec12/full",
+          "summary": "Listed as a co-advisor of a 2024 thesis developing a BCI that decodes decisions from neuronal recordings.",
+          "kind": "project"
+        },
+        {
+          "topic": "bci",
+          "url": "https://accl.psy.vanderbilt.edu/people/team/",
+          "summary": "The lab develops real-time neuronal decoders for cognitive brain-computer interfaces.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "thomas-a-lasko",
+      "name": "Thomas A. Lasko",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/thomas-lasko-md-phd",
+      "csrankings_names": [
+        "Thomas A. Lasko"
+      ],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Associate Professor Department of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0066341",
+          "summary": "Developed Gaussian-process representations of sparse, irregular clinical laboratory sequences for computational phenotyping.",
+          "kind": "paper",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "id": "thomas-reese",
+      "name": "Thomas Reese",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/thomas-reese-pharmd-phd",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Assistant Professor Department of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36303456/",
+          "summary": "Coauthored an LSTM-based model that captures temporal clinical trends to predict new-onset delirium.",
+          "kind": "paper",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "id": "tyler-derr",
+      "name": "Tyler Derr",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/tyler-derr/",
+      "csrankings_names": [
+        "Tyler Derr"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing"
+      ],
+      "appointment": "Assistant Professor",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://tylersnetwork.github.io/publications.html",
+          "summary": "Published analysis of graph time-series representations for temporal networks (TNSE, 2025).",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "victoria-morgan",
+      "name": "Victoria Morgan",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/victoria-morgan",
+      "csrankings_names": [],
+      "departments": [
+        "Biomedical Engineering",
+        "Institute of Imaging Science"
+      ],
+      "appointment": "Professor Radiology & Radiological Sciences, Biomedical Engineering, Neurology, Neurological Surgery",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.vumc.org/vuiis/person/victoria-morgan-phd",
+          "summary": "Methods for functional brain-network signals and their temporal changes in epilepsy and surgical treatment.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "xenofon-koutsoukos",
+      "name": "Xenofon Koutsoukos",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/xenofon-koutsoukos/",
+      "csrankings_names": [
+        "Xenofon D. Koutsoukos",
+        "Xenofon Koutsoukos"
+      ],
+      "departments": [
+        "Computer Science / Connected Computing",
+        "Electrical and Computer Engineering"
+      ],
+      "appointment": "Professor",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://cs.vuse.vanderbilt.edu/koutsoxd/www/Publications/s10207-023-00677-z.pdf",
+          "summary": "Coauthored detection of deception attacks using time-series sequences in cyber-physical systems.",
+          "kind": "paper",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "id": "yayun-du",
+      "name": "Yayun Du",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/yayun-du",
+      "csrankings_names": [
+        "Yayun Du"
+      ],
+      "departments": [
+        "Electrical and Computer Engineering",
+        "Biomedical Engineering"
+      ],
+      "appointment": "Assistant Professor of Electrical and Computer Engineering, Electrical and Computer Engineering Assistant Professor of Computer Science, Computer Science Assistant Professor of Mechanical Engineering, Mechanical Engineering Assistant Professor of Biomedical Engineering, Biomedical Engineering",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://duyayun.github.io/",
+          "summary": "Signal processing for multimodal wearable and implantable bioelectronics in continuous health monitoring.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "yingxiao-helen-kong",
+      "name": "Yingxiao (Helen) Kong",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://computing.vanderbilt.edu/person/yingxiao-helen-kong/",
+      "csrankings_names": [],
+      "departments": [
+        "Computer Science / Connected Computing"
+      ],
+      "appointment": "Assistant Professor of the Practice",
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://computing.vanderbilt.edu/person/yingxiao-helen-kong/",
+          "summary": "The current faculty profile explicitly lists time-series forecasting, uncertainty quantification and aviation safety as research interests.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "you-chen",
+      "name": "You Chen",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/you-chen-phd-famia",
+      "csrankings_names": [
+        "You Chen 0001"
+      ],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Associate Professor Department of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34402496/",
+          "summary": "Coauthored next-day brain-function state-transition prediction from repeated ICU clinical measurements.",
+          "kind": "paper",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "id": "zhaohua-ding",
+      "name": "Zhaohua Ding",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://engineering.vanderbilt.edu/bio/zhaohua-ding",
+      "csrankings_names": [],
+      "departments": [
+        "Electrical and Computer Engineering",
+        "Biomedical Engineering",
+        "Institute of Imaging Science"
+      ],
+      "appointment": "Research Professor of Electrical and Computer Engineering, Electrical and Computer Engineering Research Professor of Biomedical Engineering, Biomedical Engineering",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://academic.oup.com/cercorcomms/article/1/1/tgaa056/5898571",
+          "summary": "Coauthored estimation of the hemodynamic response function from resting-state fMRI time series in white matter.",
+          "kind": "paper",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "id": "zhijun-yin",
+      "name": "Zhijun Yin",
+      "affiliation": "Vanderbilt University",
+      "homepage": "https://www.vumc.org/dbmi/person/zhijun-yin-phd-ms-famia",
+      "csrankings_names": [
+        "Zhijun Yin"
+      ],
+      "departments": [
+        "Biomedical Informatics"
+      ],
+      "appointment": "Associate Professor of Biomedical Informatics",
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://arxiv.org/abs/2607.25864",
+          "summary": "Coauthored DRIFT, intervention-conditioned forecasts of ICU physiological trajectories (preprint).",
+          "kind": "paper",
+          "year": 2026
         }
       ]
     }

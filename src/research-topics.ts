@@ -20,6 +20,10 @@ namespace CSRankings {
         affiliation: string;
         homepage: string;
         csrankings_names: string[];
+        departments?: string[];
+        appointment?: string;
+        appointment_note?: string;
+        appointment_note_source?: string;
         evidence: TopicEvidence[];
     }
 
@@ -52,6 +56,13 @@ namespace CSRankings {
                 || !person.csrankings_names.every((name: any) => typeof name === "string" && name.trim())
                 || !Array.isArray(person.evidence) || !person.evidence.length) {
                 throw new Error("Invalid faculty record");
+            }
+            if ((person.departments !== undefined && (!Array.isArray(person.departments)
+                || !person.departments.every((value: any) => typeof value === "string" && value.trim())))
+                || (person.appointment !== undefined && typeof person.appointment !== "string")
+                || (person.appointment_note !== undefined && (typeof person.appointment_note !== "string"
+                    || !validTopicURL(person.appointment_note_source)))) {
+                throw new Error("Invalid appointment metadata");
             }
             ids.add(person.id);
             for (const name of person.csrankings_names) {
@@ -111,6 +122,7 @@ namespace CSRankings {
         return people.filter(person => {
             if (topic !== "all" && !person.evidence.some(source => source.topic === topic)) return false;
             const haystack = [person.name, person.affiliation, ...person.csrankings_names,
+                ...(person.departments || []), person.appointment || "",
                 ...person.evidence.map(source => `${researchTopicLabels[source.topic]} ${source.summary}`)
             ].join(" ").toLocaleLowerCase();
             return words.every(word => haystack.includes(word));
@@ -150,8 +162,8 @@ namespace CSRankings {
             if (!schools.has(person.affiliation)) schools.set(person.affiliation, []);
             schools.get(person.affiliation)!.push(person);
         }
-        status.textContent = `${matches.length} faculty at ${schools.size} schools. Initial curated list; unlisted faculty are unreviewed. `
-            + `evidence checked ${topicsCheckedOn}.`;
+        status.textContent = `${matches.length} faculty at ${schools.size} schools. Coverage varies by institution; see the Vanderbilt review for screening decisions. `
+            + `Evidence checked ${topicsCheckedOn}.`;
         if (!matches.length) {
             const empty = document.createElement("p");
             empty.textContent = "No curated matches for these filters. This does not mean there are no researchers in this area.";
@@ -173,6 +185,19 @@ namespace CSRankings {
                     extra.className = "research-topic-extra";
                     extra.textContent = " · supplemental faculty";
                     item.append(extra);
+                }
+                if (person.departments?.length) {
+                    const metadata = document.createElement("p");
+                    metadata.className = "research-topic-metadata";
+                    metadata.textContent = person.departments.join(" · ");
+                    if (person.appointment) metadata.title = person.appointment;
+                    item.append(metadata);
+                }
+                if (person.appointment_note && person.appointment_note_source) {
+                    const note = document.createElement("p");
+                    note.className = "research-topic-appointment";
+                    note.append(person.appointment_note, " ", topicLink(person.appointment_note_source, "Appointment source"));
+                    item.append(note);
                 }
                 const evidenceList = document.createElement("ul");
                 for (const source of person.evidence) {
