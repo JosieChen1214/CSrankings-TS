@@ -70,6 +70,7 @@ namespace CSRankings {
             }
             const areaStr = areaStringFn(name);
             p += `<span class="areaname">${areaStr.toLowerCase()}</span>&nbsp;`;
+            p += facultyTopicBadges(name);
 
             p += `<a title="Click for author\'s home page." target="_blank" href="${homePage}" `
                 + `onclick="event.stopPropagation(); trackOutboundLink(\'${homePage}\', true); return false;"`

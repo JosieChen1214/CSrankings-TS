@@ -49,6 +49,7 @@
     
     <link rel="stylesheet" href="css/csrankings.css">
     <link rel="stylesheet" href="css/csrankings-extra.css">
+    <link rel="stylesheet" href="css/research-topics.css">
     <link rel="stylesheet" href="css/nouislider.min.css">
     <link rel="stylesheet" href="css/walkthrough.css">
     <link rel="stylesheet" href="css/csrankings-tour.css">
@@ -1885,6 +1886,27 @@
 	    <!-- start ranking window -->
 
 	    <div id="ranking-window" class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center">
+              <details id="research-topic-directory" class="research-topic-directory" open>
+                <summary>Time series &amp; BCI faculty</summary>
+                <p>Find faculty by research evidence: general time series, medical time series, or brain-computer interfaces.</p>
+                <div class="research-topic-controls">
+                  <label for="research-topic-filter">Research topic
+                    <select id="research-topic-filter">
+                      <option value="all">All three topics</option>
+                      <option value="ts">General time series</option>
+                      <option value="medts">Medical time series</option>
+                      <option value="bci">Brain-computer interfaces</option>
+                    </select>
+                  </label>
+                  <label for="research-topic-query">School, faculty or keyword
+                    <input id="research-topic-query" type="search" placeholder="e.g. Berkeley, EEG, forecasting">
+                  </label>
+                </div>
+                <p>This directory follows the country/region filter. Topics can overlap; year and conference filters apply to publication rankings below. Historical papers show research involvement, not current recruiting.</p>
+                <p id="research-topic-status" role="status" aria-live="polite">Loading curated faculty data...</p>
+                <div id="research-topic-results"></div>
+                <noscript>Enable JavaScript to browse the faculty directory.</noscript>
+              </details>
 	      <div id="success">
 		<!-- Skeleton loading placeholder -->
 		<div id="skeleton-loading" class="skeleton-loading">

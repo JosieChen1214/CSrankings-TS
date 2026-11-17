@@ -214,7 +214,8 @@ namespace CSRankings {
                     loadAuthorInfo(this.dblpAuthors, this.homepages, this.scholarInfo, this.note),
                     loadAuthors().then(authors => { this.authors = authors; }),
                     loadCountryInfo(this.countryInfo, this.countryAbbrv, this.institutionHomepages),
-                    loadCountryNames(this.countryNames)
+                    loadCountryNames(this.countryNames),
+                    loadResearchTopics()
                 ]);
                 console.log(`All CSV files loaded in ${(performance.now() - loadStart).toFixed(1)}ms`);
                 this.setAllOn();
@@ -237,6 +238,7 @@ namespace CSRankings {
                 initChartDropdown();
                 this.recomputeAuthorAreas();
                 this.addListeners();
+                initResearchTopicDirectory(this.countryInfo, this.countryAbbrv);
                 geoCheck(() => this.rank());
                 this.rank();
                 // Display survey or sponsorship request
@@ -517,6 +519,7 @@ namespace CSRankings {
 
             // Update area selection indicators in the sticky banner
             updateAreaIndicators();
+            renderResearchTopicDirectory(this.countryInfo, this.countryAbbrv);
 
             return false;
         }

@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-17",
+  "coverage": "Initial US seed list, not an exhaustive faculty survey. Historical papers establish research involvement, not current recruiting or exclusive specialization.",
+  "faculty": [
+    {
+      "id": "eamonn-keogh",
+      "name": "Eamonn Keogh",
+      "affiliation": "Univ. of California - Riverside",
+      "homepage": "https://www.cs.ucr.edu/~eamonn/",
+      "csrankings_names": ["Eamonn J. Keogh"],
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://www.cs.ucr.edu/~eamonn/",
+          "summary": "Time-series data mining, similarity search, matrix profiles and classification datasets.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "yan-liu-usc",
+      "name": "Yan Liu",
+      "affiliation": "University of Southern California",
+      "homepage": "https://sites.google.com/view/yanliu-ai/home",
+      "csrankings_names": ["Yan Liu 0002"],
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://sites.google.com/view/yanliu-ai/home",
+          "summary": "Machine learning for time series, including applications to health and sustainability.",
+          "kind": "profile"
+        },
+        {
+          "topic": "medts",
+          "url": "https://arxiv.org/abs/1606.01865",
+          "summary": "Coauthored GRU-D for multivariate time series with missing values, evaluated on clinical datasets.",
+          "kind": "paper",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "id": "rose-yu",
+      "name": "Rose Yu",
+      "affiliation": "Univ. of California - San Diego",
+      "homepage": "https://roseyu.com/",
+      "csrankings_names": ["Rose Yu", "Qi Rose Yu"],
+      "evidence": [
+        {
+          "topic": "ts",
+          "url": "https://roseyu.com/",
+          "summary": "Spatiotemporal machine learning and time-series forecasting.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "jimeng-sun",
+      "name": "Jimeng Sun",
+      "affiliation": "Univ. of Illinois at Urbana-Champaign",
+      "homepage": "https://www.sunlab.org/",
+      "csrankings_names": ["Jimeng Sun 0001"],
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://arxiv.org/abs/2603.24828",
+          "summary": "Coauthored a reproducibility study of interpretation methods for time-series clinical prediction (preprint).",
+          "kind": "paper",
+          "year": 2026
+        }
+      ]
+    },
+    {
+      "id": "marzyeh-ghassemi",
+      "name": "Marzyeh Ghassemi",
+      "affiliation": "Massachusetts Inst. of Technology",
+      "homepage": "https://www.eecs.mit.edu/people/marzyeh-ghassemi/",
+      "csrankings_names": ["Marzyeh Ghassemi"],
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://www.csail.mit.edu/research/multivariate-signal-representations-predict-icu-interventions",
+          "summary": "Multivariate physiological signal representations and prediction of ICU interventions.",
+          "kind": "project"
+        }
+      ]
+    },
+    {
+      "id": "david-sontag",
+      "name": "David Sontag",
+      "affiliation": "Massachusetts Inst. of Technology",
+      "homepage": "https://groups.csail.mit.edu/clinicalml/author/david-sontag/",
+      "csrankings_names": ["David A. Sontag"],
+      "evidence": [
+        {
+          "topic": "medts",
+          "url": "https://arxiv.org/abs/1606.01865",
+          "summary": "Coauthored GRU-D for missing clinical time series, with experiments on MIMIC-III and PhysioNet.",
+          "kind": "paper",
+          "year": 2016
+        }
+      ]
+    },
+    {
+      "id": "jose-carmena",
+      "name": "Jose M. Carmena",
+      "affiliation": "Univ. of California - Berkeley",
+      "homepage": "https://www2.eecs.berkeley.edu/Faculty/Homepages/carmena.html",
+      "csrankings_names": ["Jose M. Carmena"],
+      "evidence": [
+        {
+          "topic": "bci",
+          "url": "https://people.eecs.berkeley.edu/~carmena/",
+          "summary": "Brain-machine interfaces, neural control and neuroprosthetic learning.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "byron-yu",
+      "name": "Byron Yu",
+      "affiliation": "Carnegie Mellon University",
+      "homepage": "https://users.ece.cmu.edu/~byronyu/",
+      "csrankings_names": [],
+      "evidence": [
+        {
+          "topic": "bci",
+          "url": "https://bme.engineering.cmu.edu/directory/bios/yu-byron.html",
+          "summary": "Statistical algorithms for neural population activity and brain-computer interfaces.",
+          "kind": "profile"
+        }
+      ]
+    },
+    {
+      "id": "bin-he",
+      "name": "Bin He",
+      "affiliation": "Carnegie Mellon University",
+      "homepage": "https://www.cmu.edu/bme/helab/People/faculty/bhe.html",
+      "csrankings_names": [],
+      "evidence": [
+        {
+          "topic": "bci",
+          "url": "https://www.cmu.edu/bme/helab/People/faculty/bhe.html",
+          "summary": "Noninvasive EEG-based brain-computer interfaces and neural control of robotic devices.",
+          "kind": "profile"
+        }
+      ]
+    }
+  ]
+}

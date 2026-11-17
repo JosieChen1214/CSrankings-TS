@@ -18,6 +18,7 @@
 	"src/utils.ts",
 	"src/data-loader.ts",
 	"src/region.ts",
+	"src/research-topics.ts",
 	"src/computation.ts",
 	"src/verification.ts",
 	"src/rendering.ts",
